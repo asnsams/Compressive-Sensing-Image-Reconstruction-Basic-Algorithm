@@ -37,6 +37,12 @@ This repository provides a MATLAB implementation of compressive sensing reconstr
 
 The L2 optimization approach minimizes the Euclidean norm of the signal, which does not inherently promote sparsity in the solution. In compressive sensing, the key to successful reconstruction is exploiting the sparsity of the signal. The L1 norm minimization is known to be more effective in promoting sparsity, leading to better reconstruction of sparse signals from a limited number of measurements. Consequently, L2 optimization tends to perform poorly in scenarios where sparsity is crucial for accurate signal recovery, as it may result in solutions that are not sparse and hence not accurate reconstructions of the original sparse signal.
 
+Result:
+<p float="left">
+  <img src="cameraman100.jpg" width="400" />
+  <img src="Result.jpg" width="400" /> 
+</p>
+
 
 To-Do List
 - [ ] Iterative Hard Thresholding (IHT)
