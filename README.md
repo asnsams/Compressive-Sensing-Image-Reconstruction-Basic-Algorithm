@@ -39,7 +39,6 @@ The L2 optimization approach minimizes the Euclidean norm of the signal, which d
 
 Result:
 <p float="left">
-  <img src="cameraman100.jpg" width="400" />
   <img src="Result.jpg" width="400" /> 
 </p>
 
