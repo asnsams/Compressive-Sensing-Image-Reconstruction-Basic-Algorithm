@@ -33,9 +33,10 @@ This repository provides a MATLAB implementation of compressive sensing reconstr
 5. **Inverse DCT**: Apply the inverse DCT to the reconstructed sparse vectors to obtain the final images.
 6. **Display and Error Calculation**: Display the original, sparse, and reconstructed images, and calculate the reconstruction error for each algorithm.
 
-## Why Does \(\ell_2\) Perform Poorly?
+## Why Does L2 optimization Perform Poorly?
 
-The \(\ell_2\) optimization approach minimizes the Euclidean norm of the signal, which does not inherently promote sparsity in the solution. In compressive sensing, the key to successful reconstruction is exploiting the sparsity of the signal. The \(\ell_1\) norm minimization is known to be more effective in promoting sparsity, leading to better reconstruction of sparse signals from a limited number of measurements. Consequently, \(\ell_2\) optimization tends to perform poorly in scenarios where sparsity is crucial for accurate signal recovery, as it may result in solutions that are not sparse and hence not accurate reconstructions of the original sparse signal.
+The L2 optimization approach minimizes the Euclidean norm of the signal, which does not inherently promote sparsity in the solution. In compressive sensing, the key to successful reconstruction is exploiting the sparsity of the signal. The L1 norm minimization is known to be more effective in promoting sparsity, leading to better reconstruction of sparse signals from a limited number of measurements. Consequently, L2 optimization tends to perform poorly in scenarios where sparsity is crucial for accurate signal recovery, as it may result in solutions that are not sparse and hence not accurate reconstructions of the original sparse signal.
+
 
 To-Do List
 - [ ] Iterative Hard Thresholding (IHT)
