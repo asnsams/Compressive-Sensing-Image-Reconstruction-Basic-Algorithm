@@ -20,8 +20,8 @@ This repository provides a MATLAB implementation of compressive sensing reconstr
 
 ## Algorithms
 
-- **\(\ell_1\) Optimization (Basis Pursuit)**: Seeks the sparsest solution by minimizing the \(\ell_1\) norm of the signal under the constraint that the reconstructed signal must be consistent with the observed measurements.
-- **\(\ell_2\) Optimization**: Attempts to find a solution by minimizing the \(\ell_2\) norm (Euclidean norm) of the signal. While simpler, this approach does not inherently promote sparsity in the solution.
+- **L1 Optimization (Basis Pursuit)**: Seeks the sparsest solution by minimizing the \(\ell_1\) norm of the signal under the constraint that the reconstructed signal must be consistent with the observed measurements.
+- **L2 Optimization**: Attempts to find a solution by minimizing the \(\ell_2\) norm (Euclidean norm) of the signal. While simpler, this approach does not inherently promote sparsity in the solution.
 - **Orthogonal Matching Pursuit (OMP)**: A greedy algorithm that iteratively selects the dictionary elements most correlated with the current residual, updating the solution and residual at each step.
 
 ## Steps
