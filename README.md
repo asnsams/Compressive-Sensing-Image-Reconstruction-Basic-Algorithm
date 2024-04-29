@@ -43,12 +43,13 @@ Result:
 </p>
 
 
-To-Do List
+To-Do List (maybe if I have time) 
 - [ ] Iterative Hard Thresholding (IHT)
 - [ ] Compressive Sampling Matching Pursuit (CoSaMP)
 - [ ] Subspace Pursuit (SP)
 - [ ] Approximate Message Passing (AMP)
+    <!--
 - [ ] Fast Iterative Shrinkage-Thresholding Algorithm (FISTA)
 - [ ] Total Variation Minimization
 - [ ] Adaptive Outlier Pursuit
-- [ ] Bayesian Compressive Sensing
+- [ ] Bayesian Compressive Sensing -->
