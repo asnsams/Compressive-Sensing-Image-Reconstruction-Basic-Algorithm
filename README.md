@@ -1,3 +1,5 @@
+This project repository contains code for the presentation on Compressive Sensing for Statistical Digital Signal Processing course at University of Illinois Chicago. 
+
 # Compressive-Sensing-Image-Reconstruction-Basic-Algorithm
 This MATLAB code demonstrates the application of L1 optimization, L2 optimization, and Orthogonal Matching Pursuit (OMP) for the reconstruction of an image from its sparse representation, showcasing the effectiveness of sparsity-promoting algorithms in compressive sensing
 
