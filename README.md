@@ -5,7 +5,7 @@ This MATLAB code demonstrates the application of L1 optimization, L2 optimizatio
 
 # Compressive Sensing Reconstruction in MATLAB
 
-This repository provides a MATLAB implementation of compressive sensing reconstruction algorithms, including \(\ell_1\) optimization (Basis Pursuit), \(\ell_2\) optimization, and Orthogonal Matching Pursuit (OMP). These algorithms are applied to reconstruct an image from its sparse representation, offering insights into the performance and characteristics of different reconstruction strategies in the context of compressive sensing.
+This repository provides a MATLAB implementation of compressive sensing reconstruction algorithms, including L1 optimization (Basis Pursuit), L2 optimization, and Orthogonal Matching Pursuit (OMP). These algorithms are applied to reconstruct an image from its sparse representation, offering insights into the performance and characteristics of different reconstruction strategies in the context of compressive sensing.
 
 ## Installation
 
