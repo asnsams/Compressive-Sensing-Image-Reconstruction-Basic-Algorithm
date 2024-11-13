@@ -22,8 +22,8 @@ This repository provides a MATLAB implementation of compressive sensing reconstr
 
 ## Algorithms
 
-- **L1 Optimization (Basis Pursuit)**: Seeks the sparsest solution by minimizing the \(\ell_1\) norm of the signal under the constraint that the reconstructed signal must be consistent with the observed measurements.
-- **L2 Optimization**: Attempts to find a solution by minimizing the \(\ell_2\) norm (Euclidean norm) of the signal. While simpler, this approach does not inherently promote sparsity in the solution.
+- **L1 Optimization (Basis Pursuit)**: Seeks the sparsest solution by minimizing the L1 norm of the signal under the constraint that the reconstructed signal must be consistent with the observed measurements.
+- **L2 Optimization**: Attempts to find a solution by minimizing the L2 norm (Euclidean norm) of the signal. While simpler, this approach does not inherently promote sparsity in the solution.
 - **Orthogonal Matching Pursuit (OMP)**: A greedy algorithm that iteratively selects the dictionary elements most correlated with the current residual, updating the solution and residual at each step.
 
 ## Steps
@@ -31,7 +31,7 @@ This repository provides a MATLAB implementation of compressive sensing reconstr
 1. **Read the Input Image**: Load and display the original image.
 2. **Sparse Representation**: Compute the Discrete Cosine Transform (DCT) of the image to get its sparse representation.
 3. **Sampling**: Generate a random Gaussian sampling matrix and use it to sample the sparse vector.
-4. **Reconstruction**: Apply the \(\ell_1\) optimization, \(\ell_2\) optimization, and OMP algorithms to reconstruct the image from its sampled sparse representation.
+4. **Reconstruction**: Apply the L1 optimization, L2 optimization, and OMP algorithms to reconstruct the image from its sampled sparse representation.
 5. **Inverse DCT**: Apply the inverse DCT to the reconstructed sparse vectors to obtain the final images.
 6. **Display and Error Calculation**: Display the original, sparse, and reconstructed images, and calculate the reconstruction error for each algorithm.
 
@@ -45,13 +45,3 @@ Result:
 </p>
 
 
-To-Do List (maybe if I have time) 
-- [ ] Iterative Hard Thresholding (IHT)
-- [ ] Compressive Sampling Matching Pursuit (CoSaMP)
-- [ ] Subspace Pursuit (SP)
-- [ ] Approximate Message Passing (AMP)
-    <!--
-- [ ] Fast Iterative Shrinkage-Thresholding Algorithm (FISTA)
-- [ ] Total Variation Minimization
-- [ ] Adaptive Outlier Pursuit
-- [ ] Bayesian Compressive Sensing -->
